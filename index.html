@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://portal.librus.pl/rodzina/synergia/loguj -->
+<html lang="pl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+    <meta name="csrf-token" content="1laQ2pN69vWckHVZPxf9RYgu6jNVntw2pmlOqITe">
+    <link rel="shortcut icon" type="image/png" href="https://portal.librus.pl/images/icon.png">
+            <title>Zaloguj do Synergii - LIBRUS Rodzina</title>
+    <script async="" src="./Zaloguj do Synergii - LIBRUS Rodzina_files/analytics.js"></script><script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-123891895-1', {'sampleRate': 1, cookieFlags: 'max-age=7200;secure;samesite=none'});
+    ga('send', 'pageview');
+</script>    <link href="./Zaloguj do Synergii - LIBRUS Rodzina_files/app.css" rel="stylesheet">
+        <style>
+        .AVHRM {
+            position: relative;
+            overflow: hidden;
+            line-height: 0px;
+            flex-grow: 1;
+            max-width: 640px;
+            min-width: 500px;
+        }
+        @media (max-width: 991.98px) {
+            .AVHRM {
+                order: 2;
+                width: 100%;
+                min-width: initial;
+            }
+        }
+    </style>
+<style>.pretty *{box-sizing:border-box}.pretty input:not([type=checkbox]):not([type=radio]){display:none}.pretty{display:inline-block;line-height:1;margin-right:1em;position:relative;white-space:nowrap}.pretty input{cursor:pointer;height:100%;left:0;margin:0;min-width:1em;opacity:0;padding:0;position:absolute;top:0;width:100%;z-index:2}.pretty .state label{display:inline-block;font-weight:400;margin:0;min-width:calc(1em + 2px);position:static;text-indent:1.5em}.pretty .state label:after,.pretty .state label:before{background-color:transparent;border:1px solid transparent;border-radius:0;box-sizing:border-box;content:"";display:block;height:calc(1em + 2px);left:0;position:absolute;top:calc(-108% + 1em);width:calc(1em + 2px);z-index:0}.pretty .state label:before{border-color:#bdc3c7}.pretty .state.p-is-hover,.pretty .state.p-is-indeterminate{display:none}@-webkit-keyframes zoom{0%{opacity:0;transform:scale(0)}}@keyframes zoom{0%{opacity:0;transform:scale(0)}}@-webkit-keyframes tada{0%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0;transform:scale(7)}38%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1;transform:scale(1)}55%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;transform:scale(1.5)}72%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;transform:scale(1)}81%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;transform:scale(1.24)}89%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;transform:scale(1)}95%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;transform:scale(1.04)}to{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;transform:scale(1)}}@keyframes tada{0%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;opacity:0;transform:scale(7)}38%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;opacity:1;transform:scale(1)}55%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;transform:scale(1.5)}72%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;transform:scale(1)}81%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;transform:scale(1.24)}89%{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;transform:scale(1)}95%{-webkit-animation-timing-function:ease-in;animation-timing-function:ease-in;transform:scale(1.04)}to{-webkit-animation-timing-function:ease-out;animation-timing-function:ease-out;transform:scale(1)}}@-webkit-keyframes jelly{0%{transform:scaleX(1)}30%{transform:scale3d(.75,1.25,1)}40%{transform:scale3d(1.25,.75,1)}50%{transform:scale3d(.85,1.15,1)}65%{transform:scale3d(1.05,.95,1)}75%{transform:scale3d(.95,1.05,1)}to{transform:scaleX(1)}}@keyframes jelly{0%{transform:scaleX(1)}30%{transform:scale3d(.75,1.25,1)}40%{transform:scale3d(1.25,.75,1)}50%{transform:scale3d(.85,1.15,1)}65%{transform:scale3d(1.05,.95,1)}75%{transform:scale3d(.95,1.05,1)}to{transform:scaleX(1)}}@-webkit-keyframes rotate{0%{opacity:0;transform:translateZ(-200px) rotate(-45deg)}to{opacity:1;transform:translateZ(0) rotate(0)}}@keyframes rotate{0%{opacity:0;transform:translateZ(-200px) rotate(-45deg)}to{opacity:1;transform:translateZ(0) rotate(0)}}@-webkit-keyframes pulse{0%{box-shadow:0 0 0 0 #bdc3c7}to{box-shadow:0 0 0 1.5em hsla(204,8%,76%,0)}}@keyframes pulse{0%{box-shadow:0 0 0 0 #bdc3c7}to{box-shadow:0 0 0 1.5em hsla(204,8%,76%,0)}}.pretty.p-default.p-fill .state label:after{transform:scale(1)}.pretty.p-default .state label:after{transform:scale(.6)}.pretty.p-default input:checked~.state label:after{background-color:#bdc3c7!important}.pretty.p-default.p-thick .state label:after,.pretty.p-default.p-thick .state label:before{border-width:.14286em}.pretty.p-default.p-thick .state label:after{transform:scale(.4)!important}.pretty.p-icon .state .icon{border:1px solid transparent;font-size:1em;height:calc(1em + 2px);left:0;line-height:normal;opacity:0;position:absolute;text-align:center;top:calc(-108% + 1em);width:calc(1em + 2px);z-index:1}.pretty.p-icon .state .icon:before{align-items:center;display:flex;flex:1;height:100%;justify-content:center;line-height:1;margin:0;text-align:center;width:100%}.pretty.p-icon input:checked~.state .icon{opacity:1}.pretty.p-icon input:checked~.state label:before{border-color:#5a656b}.pretty.p-svg .state .svg{border:1px solid transparent;font-size:1em;height:calc(1em + 2px);left:0;line-height:normal;opacity:0;position:absolute;text-align:center;top:calc(-108% + 1em);width:calc(1em + 2px);z-index:1}.pretty.p-svg .state svg{align-items:center;display:flex;flex:1;height:100%;justify-content:center;line-height:1;margin:0;text-align:center;width:100%}.pretty.p-svg input:checked~.state .svg{opacity:1}.pretty.p-image .state img{height:calc(1em + 2px);left:0;line-height:normal;opacity:0;position:absolute;text-align:center;top:0;top:calc(-108% + 1em);transform:scale(.8);width:calc(1em + 2px);z-index:0}.pretty.p-image input:checked~.state img{opacity:1}.pretty.p-switch input{min-width:2em}.pretty.p-switch .state{position:relative}.pretty.p-switch .state:before{border:1px solid #bdc3c7;border-radius:60px;box-sizing:unset;content:"";height:calc(1em + 2px);position:absolute;top:0;top:calc(-116% + 1em);transition:all .5s ease;width:2em;z-index:0}.pretty.p-switch .state label{text-indent:2.5em}.pretty.p-switch .state label:after,.pretty.p-switch .state label:before{border-color:transparent;border-radius:100%;left:0;transform:scale(.8);transition:all .5s ease}.pretty.p-switch .state label:after{background-color:#bdc3c7!important}.pretty.p-switch input:checked~.state:before{border-color:#5a656b}.pretty.p-switch input:checked~.state label:before{opacity:0}.pretty.p-switch input:checked~.state label:after{background-color:#5a656b!important;left:1em}.pretty.p-switch.p-fill input:checked~.state:before{background-color:#5a656b!important;border-color:#5a656b}.pretty.p-switch.p-fill input:checked~.state label:before{opacity:0}.pretty.p-switch.p-fill input:checked~.state label:after{background-color:#fff!important;left:1em}.pretty.p-switch.p-slim .state:before{background:#bdc3c7!important;height:.1em;top:calc(50% - .1em)}.pretty.p-switch.p-slim input:checked~.state:before{background-color:#5a656b!important;border-color:#5a656b}.pretty.p-has-hover input:hover~.state:not(.p-is-hover){display:none}.pretty.p-has-hover input:hover~.state.p-is-hover,.pretty.p-has-hover input:hover~.state.p-is-hover .icon{display:block}.pretty.p-has-focus input:focus~.state label:before{box-shadow:0 0 3px 0 #bdc3c7}.pretty.p-has-indeterminate input[type=checkbox]:indeterminate~.state:not(.p-is-indeterminate){display:none}.pretty.p-has-indeterminate input[type=checkbox]:indeterminate~.state.p-is-indeterminate{display:block}.pretty.p-has-indeterminate input[type=checkbox]:indeterminate~.state.p-is-indeterminate .icon{display:block;opacity:1}.pretty.p-toggle .state.p-on{display:none;opacity:0}.pretty.p-toggle .state .icon,.pretty.p-toggle .state .svg,.pretty.p-toggle .state img,.pretty.p-toggle .state.p-off{display:inherit;opacity:1}.pretty.p-toggle .state.p-off .icon{color:#bdc3c7}.pretty.p-toggle input:checked~.state.p-on{display:inherit;opacity:1}.pretty.p-toggle input:checked~.state.p-off{display:none;opacity:0}.pretty.p-plain input:checked~.state label:before,.pretty.p-plain.p-toggle .state label:before{content:none}.pretty.p-plain.p-plain .icon{transform:scale(1.1)}.pretty.p-round .state label:after,.pretty.p-round .state label:before{border-radius:100%}.pretty.p-round.p-icon .state .icon{border-radius:100%;overflow:hidden}.pretty.p-round.p-icon .state .icon:before{transform:scale(.8)}.pretty.p-curve .state label:after,.pretty.p-curve .state label:before{border-radius:20%}.pretty.p-smooth .icon,.pretty.p-smooth .svg,.pretty.p-smooth label:after,.pretty.p-smooth label:before{transition:all .5s ease}.pretty.p-smooth input:checked+.state label:after{transition:all .3s ease}.pretty.p-smooth input:checked+.state .icon,.pretty.p-smooth input:checked+.state .svg,.pretty.p-smooth input:checked+.state img,.pretty.p-smooth.p-default input:checked+.state label:after{-webkit-animation:zoom .2s ease;animation:zoom .2s ease}.pretty.p-smooth.p-plain input:checked+.state label:before{content:"";transform:scale(0);transition:all .5s ease}.pretty.p-tada:not(.p-default) input:checked+.state .icon,.pretty.p-tada:not(.p-default) input:checked+.state .svg,.pretty.p-tada:not(.p-default) input:checked+.state img,.pretty.p-tada:not(.p-default) input:checked+.state label:after,.pretty.p-tada:not(.p-default) input:checked+.state label:before{-webkit-animation:tada .7s cubic-bezier(.25,.46,.45,.94) 1 alternate;animation:tada .7s cubic-bezier(.25,.46,.45,.94) 1 alternate;opacity:1}.pretty.p-jelly:not(.p-default) input:checked+.state .icon,.pretty.p-jelly:not(.p-default) input:checked+.state .svg,.pretty.p-jelly:not(.p-default) input:checked+.state img,.pretty.p-jelly:not(.p-default) input:checked+.state label:after,.pretty.p-jelly:not(.p-default) input:checked+.state label:before{-webkit-animation:jelly .7s cubic-bezier(.25,.46,.45,.94);animation:jelly .7s cubic-bezier(.25,.46,.45,.94);opacity:1}.pretty.p-jelly:not(.p-default) input:checked+.state label:before{border-color:transparent}.pretty.p-rotate:not(.p-default) input:checked~.state .icon,.pretty.p-rotate:not(.p-default) input:checked~.state .svg,.pretty.p-rotate:not(.p-default) input:checked~.state img,.pretty.p-rotate:not(.p-default) input:checked~.state label:after,.pretty.p-rotate:not(.p-default) input:checked~.state label:before{-webkit-animation:rotate .7s cubic-bezier(.25,.46,.45,.94);animation:rotate .7s cubic-bezier(.25,.46,.45,.94);opacity:1}.pretty.p-rotate:not(.p-default) input:checked~.state label:before{border-color:transparent}.pretty.p-pulse:not(.p-switch) input:checked~.state label:before{-webkit-animation:pulse 1s;animation:pulse 1s}.pretty input[disabled]{cursor:not-allowed;display:none}.pretty input[disabled]~*{opacity:.5}.pretty.p-locked input{cursor:not-allowed;display:none}.pretty input:checked~.state.p-primary label:after,.pretty.p-toggle .state.p-primary label:after{background-color:#428bca!important}.pretty input:checked~.state.p-primary .icon,.pretty input:checked~.state.p-primary .svg,.pretty.p-toggle .state.p-primary .icon,.pretty.p-toggle .state.p-primary .svg{stroke:#fff;color:#fff}.pretty input:checked~.state.p-primary-o label:before,.pretty.p-toggle .state.p-primary-o label:before{border-color:#428bca}.pretty input:checked~.state.p-primary-o label:after,.pretty.p-toggle .state.p-primary-o label:after{background-color:transparent}.pretty input:checked~.state.p-primary-o .icon,.pretty input:checked~.state.p-primary-o .svg,.pretty input:checked~.state.p-primary-o svg,.pretty.p-toggle .state.p-primary-o .icon,.pretty.p-toggle .state.p-primary-o .svg,.pretty.p-toggle .state.p-primary-o svg{stroke:#428bca;color:#428bca}.pretty.p-default:not(.p-fill) input:checked~.state.p-primary-o label:after{background-color:#428bca!important}.pretty.p-switch input:checked~.state.p-primary:before{border-color:#428bca}.pretty.p-switch.p-fill input:checked~.state.p-primary:before{background-color:#428bca!important}.pretty.p-switch.p-slim input:checked~.state.p-primary:before{background-color:#245682!important;border-color:#245682}.pretty input:checked~.state.p-info label:after,.pretty.p-toggle .state.p-info label:after{background-color:#5bc0de!important}.pretty input:checked~.state.p-info .icon,.pretty input:checked~.state.p-info .svg,.pretty.p-toggle .state.p-info .icon,.pretty.p-toggle .state.p-info .svg{stroke:#fff;color:#fff}.pretty input:checked~.state.p-info-o label:before,.pretty.p-toggle .state.p-info-o label:before{border-color:#5bc0de}.pretty input:checked~.state.p-info-o label:after,.pretty.p-toggle .state.p-info-o label:after{background-color:transparent}.pretty input:checked~.state.p-info-o .icon,.pretty input:checked~.state.p-info-o .svg,.pretty input:checked~.state.p-info-o svg,.pretty.p-toggle .state.p-info-o .icon,.pretty.p-toggle .state.p-info-o .svg,.pretty.p-toggle .state.p-info-o svg{stroke:#5bc0de;color:#5bc0de}.pretty.p-default:not(.p-fill) input:checked~.state.p-info-o label:after{background-color:#5bc0de!important}.pretty.p-switch input:checked~.state.p-info:before{border-color:#5bc0de}.pretty.p-switch.p-fill input:checked~.state.p-info:before{background-color:#5bc0de!important}.pretty.p-switch.p-slim input:checked~.state.p-info:before{background-color:#2390b0!important;border-color:#2390b0}.pretty input:checked~.state.p-success label:after,.pretty.p-toggle .state.p-success label:after{background-color:#5cb85c!important}.pretty input:checked~.state.p-success .icon,.pretty input:checked~.state.p-success .svg,.pretty.p-toggle .state.p-success .icon,.pretty.p-toggle .state.p-success .svg{stroke:#fff;color:#fff}.pretty input:checked~.state.p-success-o label:before,.pretty.p-toggle .state.p-success-o label:before{border-color:#5cb85c}.pretty input:checked~.state.p-success-o label:after,.pretty.p-toggle .state.p-success-o label:after{background-color:transparent}.pretty input:checked~.state.p-success-o .icon,.pretty input:checked~.state.p-success-o .svg,.pretty input:checked~.state.p-success-o svg,.pretty.p-toggle .state.p-success-o .icon,.pretty.p-toggle .state.p-success-o .svg,.pretty.p-toggle .state.p-success-o svg{stroke:#5cb85c;color:#5cb85c}.pretty.p-default:not(.p-fill) input:checked~.state.p-success-o label:after{background-color:#5cb85c!important}.pretty.p-switch input:checked~.state.p-success:before{border-color:#5cb85c}.pretty.p-switch.p-fill input:checked~.state.p-success:before{background-color:#5cb85c!important}.pretty.p-switch.p-slim input:checked~.state.p-success:before{background-color:#357935!important;border-color:#357935}.pretty input:checked~.state.p-warning label:after,.pretty.p-toggle .state.p-warning label:after{background-color:#f0ad4e!important}.pretty input:checked~.state.p-warning .icon,.pretty input:checked~.state.p-warning .svg,.pretty.p-toggle .state.p-warning .icon,.pretty.p-toggle .state.p-warning .svg{stroke:#fff;color:#fff}.pretty input:checked~.state.p-warning-o label:before,.pretty.p-toggle .state.p-warning-o label:before{border-color:#f0ad4e}.pretty input:checked~.state.p-warning-o label:after,.pretty.p-toggle .state.p-warning-o label:after{background-color:transparent}.pretty input:checked~.state.p-warning-o .icon,.pretty input:checked~.state.p-warning-o .svg,.pretty input:checked~.state.p-warning-o svg,.pretty.p-toggle .state.p-warning-o .icon,.pretty.p-toggle .state.p-warning-o .svg,.pretty.p-toggle .state.p-warning-o svg{stroke:#f0ad4e;color:#f0ad4e}.pretty.p-default:not(.p-fill) input:checked~.state.p-warning-o label:after{background-color:#f0ad4e!important}.pretty.p-switch input:checked~.state.p-warning:before{border-color:#f0ad4e}.pretty.p-switch.p-fill input:checked~.state.p-warning:before{background-color:#f0ad4e!important}.pretty.p-switch.p-slim input:checked~.state.p-warning:before{background-color:#c77c11!important;border-color:#c77c11}.pretty input:checked~.state.p-danger label:after,.pretty.p-toggle .state.p-danger label:after{background-color:#d9534f!important}.pretty input:checked~.state.p-danger .icon,.pretty input:checked~.state.p-danger .svg,.pretty.p-toggle .state.p-danger .icon,.pretty.p-toggle .state.p-danger .svg{stroke:#fff;color:#fff}.pretty input:checked~.state.p-danger-o label:before,.pretty.p-toggle .state.p-danger-o label:before{border-color:#d9534f}.pretty input:checked~.state.p-danger-o label:after,.pretty.p-toggle .state.p-danger-o label:after{background-color:transparent}.pretty input:checked~.state.p-danger-o .icon,.pretty input:checked~.state.p-danger-o .svg,.pretty input:checked~.state.p-danger-o svg,.pretty.p-toggle .state.p-danger-o .icon,.pretty.p-toggle .state.p-danger-o .svg,.pretty.p-toggle .state.p-danger-o svg{stroke:#d9534f;color:#d9534f}.pretty.p-default:not(.p-fill) input:checked~.state.p-danger-o label:after{background-color:#d9534f!important}.pretty.p-switch input:checked~.state.p-danger:before{border-color:#d9534f}.pretty.p-switch.p-fill input:checked~.state.p-danger:before{background-color:#d9534f!important}.pretty.p-switch.p-slim input:checked~.state.p-danger:before{background-color:#a02622!important;border-color:#a02622}.pretty.p-bigger .icon,.pretty.p-bigger .img,.pretty.p-bigger .svg,.pretty.p-bigger label:after,.pretty.p-bigger label:before{font-size:1.2em!important;top:calc(-135% + 1em)!important}.pretty.p-bigger label{text-indent:1.7em}@media print{.pretty .state .icon,.pretty .state label:after,.pretty .state label:before,.pretty .state:before{-webkit-print-color-adjust:exact;print-color-adjust:exact;color-adjust:exact}}</style><style>table[data-v-7de3e1f1]{margin-top:1em}</style><style>.header[data-v-18b3f3a3]{padding-top:3em}</style><style>.isLoading{bottom:0;display:block;height:23px;left:50%;position:absolute;right:0;top:50%;transform:translate(-50%,-50%)}.preview{background-color:#ccc;display:inline-block;float:left;height:250px;width:300px}</style><style>.input-group[data-v-80c598a2]{align-items:stretch;display:flex;flex-direction:column;flex-wrap:nowrap}input[data-v-80c598a2]{display:block;max-width:100%;min-width:100%;width:100%}.error input[data-v-80c598a2]{border-color:#dc3545}.error .form-control-feedback[data-v-80c598a2],.errors[data-v-80c598a2]{color:#dc3545}.errors[data-v-80c598a2]{font-size:80%;margin-top:.25rem}.form-width[data-v-80c598a2]{width:100%}</style><style>.loader[data-v-5b4ccafa]{left:50%;position:absolute;top:50%;transform:translate(-50%,-50%)}.small[data-v-5b4ccafa]{margin-top:64px}</style><style>.dots[data-v-2214d40e]{bottom:14px;display:flex;height:13px;left:50%;position:absolute;transform:translateX(-50%);z-index:2}.dot[data-v-2214d40e]{background:transparent;border:1px solid #fff;border-radius:100%;font-size:0;height:10px;margin:1px 2px;max-height:10px;max-width:10px;outline:0;overflow:hidden;padding:0;transition:all .2s;width:10px}.active[data-v-2214d40e],.dot[data-v-2214d40e]:hover{background:#fff}</style><style>.article-carousel[data-v-068156fa]{flex:1;overflow:hidden;position:relative}.article-carousel.large[data-v-068156fa]{height:250px;margin-right:22px}@media screen and (max-width:1200px){.article-carousel.large[data-v-068156fa]{margin-right:10px}}@media screen and (max-width:991px){.article-carousel.large[data-v-068156fa]{height:150px;margin-bottom:20px;margin-right:0}}@media screen and (max-width:480px){.article-carousel.large[data-v-068156fa]{height:41vw}}.article-carousel.medium[data-v-068156fa]{height:200px;margin-left:18px}@media screen and (max-width:1200px){.article-carousel.medium[data-v-068156fa]{height:16.5vw;margin-left:10px}}@media screen and (max-width:991px){.article-carousel.medium[data-v-068156fa]{height:150px;margin-bottom:20px;margin-left:0}}@media screen and (max-width:480px){.article-carousel.medium[data-v-068156fa]{height:41vw}}.arrow[data-v-068156fa]{background:transparent;border:0;color:hsla(0,0%,100%,.7);display:inline-block;font-size:40px;outline:0;padding:0;position:absolute;top:50%;transform:translateY(-50%);transition:all .2s;z-index:3}.arrow[data-v-068156fa]:focus,.arrow[data-v-068156fa]:hover{color:#fff}.arrow-left[data-v-068156fa]{left:5px}.arrow-right[data-v-068156fa]{right:5px}.list-container[data-v-068156fa]{display:block;height:100%;overflow:hidden;position:relative;width:100%}.list-item[data-v-068156fa]{bottom:0;display:inline-block;height:100%;left:0;position:absolute;right:0;top:0;width:100%}.slide-enter-active[data-v-068156fa],.slide-leave-active[data-v-068156fa]{transition:.4s}.slide-enter[data-v-068156fa]{transform:translate(100%)}.slide-leave-to[data-v-068156fa]{transform:translate(-100%)}.slideback-enter-active[data-v-068156fa],.slideback-leave-active[data-v-068156fa]{transition:.4s}.slideback-enter[data-v-068156fa]{transform:translate(-100%)}.slideback-leave-to[data-v-068156fa]{transform:translate(100%)}</style><style>.preview[data-v-f7b93382]{background-color:#ccc;display:inline-block;float:left;height:250px;width:300px}</style><style>.sound{align-items:center;background:transparent;border:0;bottom:5px;cursor:pointer;display:flex;height:30px;justify-content:flex-start;padding:5px;position:absolute;right:5px;width:33px}.sound svg{color:#fff;filter:drop-shadow(3px 3px 2px rgba(0,0,0,.7))}.sound .muted{height:20px;width:10px}.sound .unmuted{height:20px;width:23px}</style><style>.video{max-height:100%;max-width:100%}</style><style>.advertisement-loader[data-v-13fa3d69]{align-items:center;display:flex;justify-content:center;min-height:100px;position:relative;width:100%}</style><style>
+      .DCUPRXXTBG {
+        display: inline-block;
+        position: relative;
+        box-sizing: border-box;
+        width: 300px;
+height: 250px;
+margin-bottom: 20px;
+margin-right: 113px;
+      }
+      .DCUPRXXTBG img {
+        width: 100%;
+        display: block;
+        cursor: pointer;
+      }
+      .DCUPRXXTBG video {
+        cursor: pointer;
+        max-width: 100%;
+        max-height: 200px;
+      }
+      @media screen and (max-width:991px){
+        .DCUPRXXTBG {
+          max-width: 320px;
+min-height: 100px;
+height: auto;
+width: 100%;
+margin-right: 0;
+        }
+        .DCUPRXXTBG video {
+          max-height: initial;
+          height: initial;
+        }
+      }
+    </style><style>
+      .XFPRREUNPF {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        height: 20px;
+        line-height: 16px;
+        overflow: hidden;
+      }
+      .XFPRREUNPF span {
+        display: inline-block;
+        min-width: 3px;
+        font-size: 10px;
+        line-height: 14px;
+        color: #a7a7a7;
+      }
+      .XFPRREUNPF .d-none {
+        display: none;
+      }
+    </style><script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/popup.js" async=""></script><script type="text/javascript" src="chrome-extension://aggiiclaiamajehmlfpkjmlbadmkledi/tat_popup.js" async=""></script></head>
+<body class="theme-standard portal-rodzina  ">
+            <section class="app-download clearfix" id="app-download">
+    <div class="container-fluid app-download__container">
+        <header class="app-download__header">
+            <div class="app-download__logo">
+                <i class="icon-logo-mobile-img"></i>
+            </div>
+            <div class="app-download__meta">
+                <h3 class="app-download__title">Librus</h3>
+                <p class="app-download__slogan">Oficjalna aplikacja Librus</p>
+            </div>
+        </header>
+        <div class="app-download__link">
+            <a class="btn btn-primary app-download__btn" href="https://synergia.librus.pl/aplikacjemobilne#pobierz" target="_blank">Pobierz bezpłatnie</a>
+        </div>
+    </div>
+</section>
+    <nav class="navbar navbar--family navbar--app-bar">
+    <div class="container-fluid">
+        <div class="navbar__left">
+            <a class="navbar-brand text-white" href="https://portal.librus.pl/rodzina" aria-label="Logo Librus Rodzina">
+                <i class="icon icon-logo-rodzina navbar__logo"></i>
+            </a>
+            <div class="container-button">
+                <div class="search">
+                    <form class="search-form" method="get" action="https://portal.librus.pl/rodzina/artykuly" autocomplete="off">
+                        <input class="search-input" type="text" placeholder="Wpisz wyszukiwany tekst" name="name" id="archive-search" value="" aria-label="Wpisz wyszukiwany tekst">
+                        <button type="submit" class="search-button" aria-label="Przycisk szukaj">
+                            <i class="zmdi zmdi-search"></i>
+                        </button>
+                    </form>
+                </div>
+                <div class="navbar-small-menu">
+                    <a id="shop-button" data-is-logged="0" class="shop-button btn btn-green btn-navbar" href="https://portal.librus.pl/rodzina/sklep/mobilne-dodatki">Kup Mobilne dodatki</a>
+                    <a class="btn btn-primary btn-navbar" href="https://portal.librus.pl/szkola">Librus Szkoła</a>
+                    <a class="btn btn-third btn-synergia-top btn-navbar dropdown-toggle" href="https://portal.librus.pl/rodzina/synergia/loguj#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="icon icon-logo-synergia btn-synergia__icon"></i> LIBRUS Synergia
+                    </a>
+                    <div class="dropdown-menu dropdown-menu--wide dropdown-menu--gray">
+                        <a class="dropdown-item dropdown-item--synergia" href="https://www.librus.pl/szkoly/systemy/librus-synergia/dzial-faq/" target="_blank">
+                            <i class="zmdi zmdi-help dropdown-item__icon"></i>
+                            Pomoc
+                        </a>
+                        <a class="dropdown-item dropdown-item--synergia" href="https://portal.librus.pl/rodzina/synergia/loguj">
+                            <i class="zmdi zmdi-account dropdown-item__icon"></i>
+                            Zaloguj
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar-separator"></div>
+        <div class="navbar__right">
+            <div class="navbar__status">
+                Konto LIBRUS:
+                                    niezalogowany
+                            </div>
+            <div class="navbar_menu">
+                <a href="https://portal.librus.pl/rodzina/synergia/loguj#" id="accessible" class="accessible">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve"><g><path d="M55.6,73.2c0.5,1.1,1.5,1.7,2.6,1.7c0.4,0,0.8-0.1,1.2-0.3c1.5-0.7,2.1-2.4,1.4-3.9c0,0-5.5-12.6-6.5-17.2   c-0.4-1.6-0.6-5.9-0.7-7.9c0-0.7,0.4-1.3,1-1.5l12.3-3.7c1.5-0.4,2.4-2.1,2-3.6c-0.4-1.5-2.1-2.4-3.6-2c0,0-11.4,3.7-15.5,3.7   c-4,0-15.3-3.6-15.3-3.6c-1.5-0.4-3.2,0.3-3.7,1.8c-0.5,1.6,0.4,3.3,2,3.7l12.3,3.7c0.6,0.2,1.1,0.8,1,1.5c-0.1,2-0.3,6.3-0.7,7.9   c-1,4.6-6.5,17.2-6.5,17.2c-0.7,1.5,0,3.2,1.4,3.9c0.4,0.2,0.8,0.3,1.2,0.3c1.1,0,2.2-0.6,2.6-1.7L50,61.2L55.6,73.2z"></path><circle cx="50" cy="30" r="5.6"></circle><path d="M89.5,50c0-21.8-17.7-39.5-39.5-39.5c-21.8,0-39.5,17.7-39.5,39.5S28.2,89.5,50,89.5C71.8,89.5,89.5,71.8,89.5,50z    M17.1,50c0-18.2,14.8-32.9,32.9-32.9S82.9,31.8,82.9,50S68.2,82.9,50,82.9S17.1,68.2,17.1,50z"></path></g></svg>
+                    <span class="sr-only">Zmiana kontrastu strony</span>
+                </a>
+                                                            <div>
+                            <a href="https://portal.librus.pl/rodzina/synergia/loguj#" class="dropdown__icon dropdown__icon--notices" id="dropdownNoticesButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Tablica ogłoszeń">
+                                <i class="zmdi zmdi-comment-alert"></i>
+                            </a>
+                            <div id="dropdown-menu--notices" class="dropdown-menu dropdown-menu--wide dropdown-menu--top dropdown-menu--notices" data-toggle="toggle">
+    <a class="notices__header" href="https://portal.librus.pl/rodzina/ogloszenia/">
+        Ogłoszenia
+    </a>
+    <div id="notices-content" class="notices__content ps">
+                    <div class="notices__empty">Brak ogłoszeń</div>
+            <div class="ps__rail-x" style="left: 0px; top: 0px;"><div class="ps__thumb-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps__rail-y" style="top: 0px; left: 0px;"><div class="ps__thumb-y" tabindex="0" style="top: 0px; height: 0px;"></div></div></div>
+    <div class="notices__footer ">
+        <a href="https://portal.librus.pl/rodzina/synergia/loguj#" class="notices__close" id="dropdownNoticesClose">Zamknij</a>
+    </div>
+</div>                        </div>
+                                                    <div>
+                    <a href="https://portal.librus.pl/rodzina/synergia/loguj#" class="dropdown__icon dropdown__icon--account display-none" id="dropdownTopRightMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" aria-label="Menu">
+                        <i class="zmdi zmdi-more-vert"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu--wide dropdown-menu--top">
+                        <div class="dropdown__account">
+                            <div class="dropdown-item--login-status d-lg-none">
+                                Konto LIBRUS:<br>
+                                <span>
+                                                                            niezalogowany
+                                                                    </span>
+                            </div>
+                                                                                        <a class="dropdown-item dropdown-item--white" href="https://portal.librus.pl/konto-librus/login?redirectTo=https%3A%2F%2Fportal.librus.pl%2Frodzina%2Fwidget&amp;redirectCrc=9893cce82e0d4d73259da200baa80fe4e1acaea1d513abb2e9653dc9e065dbe2">
+                                    <i class="zmdi zmdi-power dropdown-item__icon"></i>
+                                    Zaloguj
+                                </a>
+                                                            <a class="dropdown-item dropdown-item--white d-lg-none" href="https://konto.librus.pl/" target="_blank">
+                                    <i class="icon icon-heart dropdown-item__icon"></i>
+                                    Dlaczego warto
+                                </a>
+                                                        <a class="shop-button dropdown-item dropdown-item--white font-weight-medium dropdown-separator d-lg-none" data-is-logged="0" href="https://portal.librus.pl/rodzina/sklep/mobilne-dodatki" target="_blank">
+                                <i class="zmdi zmdi-shopping-cart dropdown-item__icon"></i>
+                                Kup Mobilne dodatki
+                            </a>
+                            <a class="dropdown-item dropdown-item--white font-weight-medium d-lg-none" href="https://portal.librus.pl/szkola">
+                                <i class="zmdi zmdi-graduation-cap dropdown-item__icon"></i>
+                                Librus Szkoła
+                            </a>
+                            <a class="dropdown-item dropdown-item--white btn-synergia btn-synergia--rodzina font-weight-medium dropdown-toggle d-lg-none show" id="dropdownSynergiaMenuButton" href="https://portal.librus.pl/rodzina/synergia/loguj#">
+                                <i class="icon icon-logo-synergia dropdown-item__icon btn-synergia__icon"></i> LIBRUS Synergia
+                            </a>
+                            <div class="dropdown-menu dropdown-menu--wide dropdown-menu--gray dropdown-menu--inside d-lg-none show" id="dropdownSynergiaMenu">
+                                <a class="dropdown-item dropdown-item--synergia" href="https://www.librus.pl/szkoly/systemy/librus-synergia/dzial-faq/" target="_blank">
+                                    <i class="zmdi zmdi-help dropdown-item__icon"></i>
+                                    Pomoc
+                                </a>
+                                <a class="dropdown-item dropdown-item--synergia" href="https://portal.librus.pl/rodzina/synergia/loguj">
+                                    <i class="zmdi zmdi-account dropdown-item__icon"></i>
+                                    Zaloguj
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                </div>
+</nav>
+        <div class="modal fade" tabindex="-1" role="dialog" id="close-user-sessions-modal">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Zostałeś wylogowany(-a) z Konta LIBRUS na wszystkich Twoich urządzeniach.</p>
+            </div>
+
+            <div class="modal-footer mx-3 mt-3">
+                <div class="row flex-grow-1 justify-content-end">
+                    <button type="button" class="col-12 col-lg-auto modal-btn mb-1 btn-primary-reverse" data-dismiss="modal">OK</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    <main>
+    <article>
+            <div class="container-fluid container--no-space container--min-height">
+        <div class="container__row--synergia-login">
+                        <div class="AVHRM">
+                <section id="synergiaLogin" class="synergia-container">
+                                        <iframe id="caLoginIframe" class="synergia-container__iframe" width="100%" frameborder="0" scrolling="no" src="./Zaloguj do Synergii - LIBRUS Rodzina_files/portalRodzina.html" style="height: 599px;"></iframe>
+                    <div id="synergiaLoader" class="synergiaLoader" style="display: none;">
+                        <div class="synergiaLoader__wrap">
+                            <div class="loader">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        <span class="synergiaLoader__text">Trwa ładowanie formularza logowania do systemu Synergia.</span>
+                        </div>
+                    </div>
+                                    </section>
+            </div>
+            <div class="URGP"></div>
+            <div class="UOKNSVNOMI"></div>
+                        <div class="DCUPRXXTBG"><div class="UQLJAVELCMB"><div class="ARMTSUJ"><div class="YDLZ"><div class="NZDOAGO"><div class="KMJX"><div class="ZNVBCJU"><div class="GAXORJH"><div class="NBBJHIMWP"></div><div class="LONEPETWEBHX"></div><div class="XYFFRQZ"></div><div><div><picture><source media="(max-width: 991px)" srcset="https://files.librus.pl/img/22/10/euvic/r_euvic_pomoc_loginR_LR_2.jpg"> <img alt="" loading="lazy" src="./Zaloguj do Synergii - LIBRUS Rodzina_files/r_euvic_pomoc_loginR_LR_1.jpg"></picture> <!----></div></div></div></div></div></div></div></div></div></div>
+            <div class="YRHLRGSS"></div>
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__row">
+            <div class="footer__column footer__column--logo">
+                <span class="icon icon-logo-librus footer__logo"></span>
+            </div>
+            <div class="footer__column footer__column--nav">
+                <div class="footer-nav">
+                    <ul class="footer-nav__list">
+                        <li class="footer-nav__item footer-nav__item--title">
+                            Zaloguj się do systemu
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://sekretariat.librus.pl/" target="_blank">e-Sekretariat</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://swiadectwa.librus.pl/Swiadectwa/module/StartPage" target="_blank">e-Świadectwa</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://nauczanie.librus.pl/" target="_blank">e-Nauczanie</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://indywidualni.pl/logowanie" target="_blank">indywidualni.pl</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://biblio.edu.pl/eBiblioWeb/lstart" target="_blank">e-biblio</a>
+                        </li>
+                    </ul>
+                    <ul id="second-nav-column" class="footer-nav__list">
+                        <li class="footer-nav__item footer-nav__item--title">
+                            Dowiedz się więcej
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://portal.librus.pl/rodzina/artykuly">Wszystkie artykuły</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://www.librus.pl/" target="_blank">librus.pl</a>
+                        </li>
+                                                <li class="footer-nav__item">
+                            <a class="footer__link" href="https://www.librus.pl/o-nas/" target="_blank">O nas</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://www.librus.pl/biuro-prasowe/komunikaty-prasowe/" target="_blank">Biuro prasowe</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://www.librus.pl/artykuly/partnerzy/" target="_blank">Partnerzy</a>
+                        </li>
+                        <li class="footer-nav__item">
+                            <a class="footer__link" href="https://www.librus.pl/kariera/" target="_blank">Kariera</a>
+                        </li>
+                                                    <li class="footer-nav__item">
+                                <a class="footer__link" href="https://www.librus.pl/kontakt-do-nas/" target="_blank">Kontakt</a>
+                            </li>
+                                            </ul>
+                    <ul id="third-nav-column" class="footer-nav__list">
+                        <li class="footer-nav__item footer-nav__item--title">
+                            &nbsp;
+                        </li>
+                                                    <li class="footer-nav__item">
+                                <a class="footer__link" href="https://konto.librus.pl/" target="_blank">Konto LIBRUS</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer__link" href="https://konto.librus.pl/pomoc" target="_blank">Pomoc Konta LIBRUS</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer__link" href="https://portal.librus.pl/rodzina/regulamin" target="_blank">Regulamin Konta LIBRUS</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer__link" href="https://synergia.librus.pl/regulamin" target="_blank">Regulamin Synergia</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer__link" href="https://www.librus.pl/informacja-prawna/" target="_blank">Informacja prawna</a>
+                            </li>
+                            <li class="footer-nav__item">
+                                <a class="footer__link" href="https://www.librus.pl/artykuly/polityka-prywatnosci/" target="_blank">Polityka prywatności</a>
+                            </li>
+                                            </ul>
+                </div>
+            </div>
+            <div class="footer__column footer__column--social">
+                <div class="footer__social">
+                                            <a class="footer__link" href="https://www.facebook.com/librusrodzina/" target="_blank" aria-label="Przejdź do profilu Librus Rodzina na facebook">
+                            <i class="zmdi zmdi-facebook"></i>
+                        </a>
+                                        <a class="footer__link" href="https://twitter.com/libruspl" target="_blank" aria-label="Przejdź do profilu Librus na twitter">
+                        <i class="zmdi zmdi-twitter"></i>
+                    </a>
+                    <a class="footer__link" href="https://www.librus.pl/kontakt/" target="_blank" aria-label="Kontakt">
+                        <i class="zmdi zmdi-email"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+            <div id="cookieBox" class="cookies" style="display: none;">
+    <div id="cookieBoxClose" class="cookies__close">
+        <a class="cookies__close-link" href="https://portal.librus.pl/rodzina/synergia/loguj#">x</a>
+    </div>
+    <p class="cookies__text">
+        Ta strona wykorzystuje pliki cookies. Za ich pomocą zbierane są informacje, które mogą stanowić dane osobowe. Wykorzystujemy je m.in. w celach statystycznych, funkcjonalnych oraz dostosowania strony do indywidualnych potrzeb użytkownika i wyświetlania dopasowanych treści o charakterze marketingowym. Korzystając z serwisu bez zmiany konfiguracji przeglądarki, wyrażasz zgodę na zapisanie plików cookies w pamięci Twojego urządzenia. Możesz samodzielnie zarządzać cookies zmieniając odpowiednio ustawienia w Twojej przeglądarce. Więcej informacji o zasadach przetwarzania Twoich danych osobowych oraz przysługujących Ci prawach znajdziesz w <a href="https://www.librus.pl/artykuly/polityka-prywatnosci/" target="_blank">Polityce prywatności</a>.
+    </p>
+</div>
+        </article>
+</main>
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true" id="md-not-connected-modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content p-0">
+            <div class="" style="position: relative">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Zamknij" style="position: relative">
+                    <span class="mr-2 grey" aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="pl-5 pr-5 pt-3">
+                <div class="container" style="min-height: 225px">
+                    <div class="row">
+                        <h3>Aby kontynuować zakupy, powiąż przynajmniej jedno konto z systemu Synergia!
+                        </h3>
+                    </div>
+                    <div class="row mt-3">
+                        <span>Mobilne dodatki to usługa dedykowana osobom, które powiązały swoje Konto LIBRUS z przynajmniej jednym kontem w systemie Synergia.
+Nie zrobiłeś tego? Zrób to teraz, to tylko chwila!</span>
+                    </div>
+                    <div class="row mt-3 mb-3 text-center">
+                        <div class="col">
+                            <div class="text-center p-0">
+    <a class="modal-btn mb-1 " href="https://portal.librus.pl/rodzina/connect">
+        Powiąż konto
+    </a>
+</div>                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pl-5 pr-5 pt-3" style="background-color: #028ae1; color: white">
+                <div class="row">
+                    <div class="col flex-column align-items-baseline">
+                        <h4>Mobilne dodatki</h4>
+                        <a href="https://konto.librus.pl/mobilnedodatki" target="_blank" class="btn btn-default btn-basket-caption" style="background-color: #f76e6e; color: white; white-space: normal !important">
+                            Dowiedz się więcej
+                        </a>
+                    </div>
+                    <div class="col aligned" style="flex: 1">
+                        <p class="small">
+                            Mobilne dodatki do aplikacji Librus to funkcje zwiększające komfort korzystania z niej.
+                            Wiadomości, Zadania domowe, widok Biurko to tylko część z udogodnień, z których możesz
+                            korzystać. Ciesz się wygodą na smartfonie, tablecie i komputerze.</p>
+                    </div>
+                    <div class="col aligned flex-column d-none d-md-block" style="margin-top: -20px; background-image: url(&#39;/images/Devices_2.png&#39;);
+                    background-position: center center; background-size: contain; background-repeat: no-repeat">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-mobile-addons shop-modal" tabindex="-1" role="dialog" aria-hidden="true" id="md-not-logged-modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content p-0">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Zamknij">
+                <span class="mr-1 grey" aria-hidden="true">×</span>
+            </button>
+            <div class="pl-5 pr-5 pt-3 blue-container">
+                <div class="row">
+                    <div class="col-md-5 aligned flex-column d-none d-md-block" style="margin-top: -20px; background-repeat: no-repeat;
+                    background-image: url(&#39;/images/Devices_2.png&#39;);
+                    background-position: center center; background-size: contain">
+                    </div>
+                    <div class="col-md-7 flex-column align-items-baseline">
+                        <h4>Mobilne dodatki</h4>
+                        <p class="small">
+                            Mobilne dodatki do aplikacji Librus to funkcje zwiększające komfort korzystania z niej.
+                            Wiadomości, Zadania domowe, widok Biurko to tylko część z udogodnień, z których możesz
+                            korzystać. Ciesz się wygodą na smartfonie, tablecie i komputerze.
+                        </p>
+                        <a href="https://konto.librus.pl/mobilnedodatki" target="_blank" class="btn btn-default btn-basket-caption" style="white-space: normal !important">
+                            Dowiedz się więcej
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-5 pr-5 pt-3 white-container">
+                <div class="container" style="min-height: 225px">
+                    <div class="row">
+                        <h3>
+                            Wybierz sposób zakupu
+                        </h3>
+                    </div>
+                    <div class="row mt-3">
+                        <span class="text">
+                            Kup Mobilne dodatki bezpośrednio do swojego Konta LIBRUS:
+                        </span>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-12 mt-2 mb-2 mt-md-0 mb-md-0 button-login">
+                                                            <div class="text-center p-0">
+                                    <div class="text-center p-0">
+    <a class="modal-btn mb-1 btn-primary-reverse" href="https://portal.librus.pl/konto-librus/login?redirectTo=https%3A%2F%2Fportal.librus.pl%2Frodzina%2Fsklep%2Fmobilne-dodatki&amp;redirectCrc=74ba0b9d02e4c17ac2fccfa8e42006e3b8a6c8749a2969d361d2a1237c2fff16">
+        Zaloguj się
+    </a>
+</div>                                </div>
+                                                    </div>
+                        <div class="col-sm-12 register">
+                            <a class="primary-link" href="https://portal.librus.pl/konto-librus/register?redirectTo=https%3A%2F%2Fportal.librus.pl%2Frodzina%2Fsklep%2Fmobilne-dodatki&amp;redirectCrc=74ba0b9d02e4c17ac2fccfa8e42006e3b8a6c8749a2969d361d2a1237c2fff16">Nie masz Konta LIBRUS? Załóż je!</a>
+                        </div>
+                    </div>
+                                            <div class="row mt-3">
+                            <span class="text">
+                                lub kup voucher z kodem na Mobilne dodatki:
+                            </span>
+                            <div class="col-sm-12 no-logged">
+                                <div class="text-center p-0">
+                                    <div class="text-center p-0">
+    <a class="modal-btn mb-1 btn-primary" href="https://portal.librus.pl/rodzina/sklep/mobilne-dodatki-voucher">
+        Kup bez logowania
+    </a>
+</div>                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-mobile-addons shop-modal" tabindex="-1" role="dialog" aria-hidden="true" id="md-disabled-modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content p-0">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Zamknij">
+                <span class="mr-1 grey" aria-hidden="true">×</span>
+            </button>
+            <div class="pl-5 pr-5 pt-3 blue-container">
+                <div class="row">
+                    <div class="col-md-5 aligned flex-column d-none d-md-block" style="margin-top: -20px; background-repeat: no-repeat;
+                    background-image: url(&#39;/images/Devices_2.png&#39;);
+                    background-position: center center; background-size: contain">
+                    </div>
+                    <div class="col-md-7 flex-column align-items-baseline">
+                        <h4>Mobilne dodatki</h4>
+                        <p class="small">
+                            Mobilne dodatki do aplikacji Librus to funkcje zwiększające komfort korzystania z niej.
+                            Wiadomości, Zadania domowe, widok Biurko to tylko część z udogodnień, z których możesz
+                            korzystać. Ciesz się wygodą na smartfonie, tablecie i komputerze.
+                        </p>
+                        <a href="https://konto.librus.pl/mobilnedodatki" target="_blank" class="btn btn-default btn-basket-caption" style="white-space: normal !important">
+                            Dowiedz się więcej
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-5 pr-5 pt-3 white-container">
+                <div class="container" style="min-height: 225px">
+                    <div class="row">
+                        <h3>
+                            Zakup oraz aktywacja Mobilnych Dodatków nie są obecnie możliwe.                        </h3>
+                    </div>
+                    <div class="row mt-3">
+                        <span class="text">
+                            Możliwość zakupu Mobilnych Dodatków zostanie ponownie uruchomiona od 1 września br.                        </span>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-12">
+                            <div class="text-center p-0">
+                                <br>
+                                <br>
+                                <button class="modal-btn mb-1" type="button" data-dismiss="modal" aria-label="Zamknij" style="
+                                        background-color: white;
+                                        white-space: normal;
+                                        border: 1px solid #028ae1;">
+                                    OK
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade shop-modal" tabindex="-1" role="dialog" aria-hidden="true" id="Indywidualni-not-logged-modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content p-0">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Zamknij">
+                <span class="mr-1 grey" aria-hidden="true">×</span>
+            </button>
+            <div class="pl-5 pr-5 pt-3 blue-container">
+                <div class="row">
+                    <div class="col-md-5 aligned flex-column d-none d-md-block" style="margin-top: -20px; background-repeat: no-repeat;
+                        background-image: url(&#39;/images/IDW_laptop.png&#39;); background-position: center center;
+                        background-size: contain">
+
+                    </div>
+                    <div class="col-md-7 flex-column align-items-baseline">
+                        <h4 class="">indywidualni.pl</h4>
+                        <p class="small">
+                            Pakiet testów „Mocne strony i predyspozycje” oraz 3-letni dostęp do portalu z bazą metod,
+                            technik i kart pracy podnoszących efektywność nauki.
+                        </p>
+                        <a href="https://konto.librus.pl/indywidualni" target="_blank" class="btn btn-default btn-basket-caption" style="white-space: normal !important">
+                            Dowiedz się więcej
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-5 pr-5 pt-3 white-container">
+                <div class="container" style="min-height: 230px">
+
+                    <div class="row">
+                        <h3>Taniej dla użytkowników Konta LIBRUS!
+                        </h3>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-12 col-lg-6 text-center">
+
+                            <p>Cena regularna</p>
+
+                            <h1 class="mb-1"><s>39 zł</s></h1>
+
+
+                            <div class="text-center p-0">
+    <a class="modal-btn mb-1 btn-black" target="_blank" href="https://indywidualni.pl/">
+        Kup w regularnej cenie
+    </a>
+</div>                        </div>
+                        <div class="col-sm-12 col-lg-6 mt-sm-4 mt-md-0 text-center redModal">
+
+                            <p> Konto LIBRUS</p>
+
+                            <h1 class="mb-1">29 zł</h1>
+
+                            <div class="text-center p-0">
+    <a class="modal-btn mb-1 btn-red" href="https://portal.librus.pl/konto-librus/register?redirectTo=https%3A%2F%2Fportal.librus.pl%2Frodzina%2Fsklep%2Findywidualni&amp;redirectCrc=f73198902ecf6a97a89bab90bed8cdd69d55cc5bccf588772de45c5925da52f7">
+        Zarejestruj się
+    </a>
+</div>                            <div>
+                                <span class="small text-center redModal">
+                                    Masz już konto?
+                                    <a class="primary-link" href="https://portal.librus.pl/konto-librus/login?redirectTo=https%3A%2F%2Fportal.librus.pl%2Frodzina%2Fsklep%2Findywidualni&amp;redirectCrc=f73198902ecf6a97a89bab90bed8cdd69d55cc5bccf588772de45c5925da52f7">Zaloguj się.</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        <script src="./Zaloguj do Synergii - LIBRUS Rodzina_files/unsupported-browsers.js"></script>
+<script>
+    var voucherEnablitiy = "2";
+</script>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true" id="md-not-connected-modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content p-0">
+            <div class="" style="position: relative">
+                <button class="close" type="button" data-dismiss="modal" aria-label="Zamknij" style="position: relative">
+                    <span class="mr-2 grey" aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="pl-5 pr-5 pt-3">
+                <div class="container" style="min-height: 225px">
+                    <div class="row">
+                        <h3>Aby kontynuować zakupy, powiąż przynajmniej jedno konto z systemu Synergia!
+                        </h3>
+                    </div>
+                    <div class="row mt-3">
+                        <span>Mobilne dodatki to usługa dedykowana osobom, które powiązały swoje Konto LIBRUS z przynajmniej jednym kontem w systemie Synergia.
+Nie zrobiłeś tego? Zrób to teraz, to tylko chwila!</span>
+                    </div>
+                    <div class="row mt-3 mb-3 text-center">
+                        <div class="col">
+                            <div class="text-center p-0">
+    <a class="modal-btn mb-1 " href="https://portal.librus.pl/rodzina/connect">
+        Powiąż konto
+    </a>
+</div>                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pl-5 pr-5 pt-3" style="background-color: #028ae1; color: white">
+                <div class="row">
+                    <div class="col flex-column align-items-baseline">
+                        <h4>Mobilne dodatki</h4>
+                        <a href="https://konto.librus.pl/mobilnedodatki" target="_blank" class="btn btn-default btn-basket-caption" style="background-color: #f76e6e; color: white; white-space: normal !important">
+                            Dowiedz się więcej
+                        </a>
+                    </div>
+                    <div class="col aligned" style="flex: 1">
+                        <p class="small">
+                            Mobilne dodatki do aplikacji Librus to funkcje zwiększające komfort korzystania z niej.
+                            Wiadomości, Zadania domowe, widok Biurko to tylko część z udogodnień, z których możesz
+                            korzystać. Ciesz się wygodą na smartfonie, tablecie i komputerze.</p>
+                    </div>
+                    <div class="col aligned flex-column d-none d-md-block" style="margin-top: -20px; background-image: url(&#39;/images/Devices_2.png&#39;);
+                    background-position: center center; background-size: contain; background-repeat: no-repeat">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-mobile-addons shop-modal" tabindex="-1" role="dialog" aria-hidden="true" id="md-not-logged-modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content p-0">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Zamknij">
+                <span class="mr-1 grey" aria-hidden="true">×</span>
+            </button>
+            <div class="pl-5 pr-5 pt-3 blue-container">
+                <div class="row">
+                    <div class="col-md-5 aligned flex-column d-none d-md-block" style="margin-top: -20px; background-repeat: no-repeat;
+                    background-image: url(&#39;/images/Devices_2.png&#39;);
+                    background-position: center center; background-size: contain">
+                    </div>
+                    <div class="col-md-7 flex-column align-items-baseline">
+                        <h4>Mobilne dodatki</h4>
+                        <p class="small">
+                            Mobilne dodatki do aplikacji Librus to funkcje zwiększające komfort korzystania z niej.
+                            Wiadomości, Zadania domowe, widok Biurko to tylko część z udogodnień, z których możesz
+                            korzystać. Ciesz się wygodą na smartfonie, tablecie i komputerze.
+                        </p>
+                        <a href="https://konto.librus.pl/mobilnedodatki" target="_blank" class="btn btn-default btn-basket-caption" style="white-space: normal !important">
+                            Dowiedz się więcej
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-5 pr-5 pt-3 white-container">
+                <div class="container" style="min-height: 225px">
+                    <div class="row">
+                        <h3>
+                            Wybierz sposób zakupu
+                        </h3>
+                    </div>
+                    <div class="row mt-3">
+                        <span class="text">
+                            Kup Mobilne dodatki bezpośrednio do swojego Konta LIBRUS:
+                        </span>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-12 mt-2 mb-2 mt-md-0 mb-md-0 button-login">
+                                                            <div class="text-center p-0">
+                                    <div class="text-center p-0">
+    <a class="modal-btn mb-1 btn-primary-reverse" href="https://portal.librus.pl/konto-librus/login?redirectTo=https%3A%2F%2Fportal.librus.pl%2Frodzina%2Fsklep%2Fmobilne-dodatki&amp;redirectCrc=74ba0b9d02e4c17ac2fccfa8e42006e3b8a6c8749a2969d361d2a1237c2fff16">
+        Zaloguj się
+    </a>
+</div>                                </div>
+                                                    </div>
+                        <div class="col-sm-12 register">
+                            <a class="primary-link" href="https://portal.librus.pl/konto-librus/register?redirectTo=https%3A%2F%2Fportal.librus.pl%2Frodzina%2Fsklep%2Fmobilne-dodatki&amp;redirectCrc=74ba0b9d02e4c17ac2fccfa8e42006e3b8a6c8749a2969d361d2a1237c2fff16">Nie masz Konta LIBRUS? Załóż je!</a>
+                        </div>
+                    </div>
+                                            <div class="row mt-3">
+                            <span class="text">
+                                lub kup voucher z kodem na Mobilne dodatki:
+                            </span>
+                            <div class="col-sm-12 no-logged">
+                                <div class="text-center p-0">
+                                    <div class="text-center p-0">
+    <a class="modal-btn mb-1 btn-primary" href="https://portal.librus.pl/rodzina/sklep/mobilne-dodatki-voucher">
+        Kup bez logowania
+    </a>
+</div>                                </div>
+                            </div>
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade modal-mobile-addons shop-modal" tabindex="-1" role="dialog" aria-hidden="true" id="md-disabled-modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content p-0">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Zamknij">
+                <span class="mr-1 grey" aria-hidden="true">×</span>
+            </button>
+            <div class="pl-5 pr-5 pt-3 blue-container">
+                <div class="row">
+                    <div class="col-md-5 aligned flex-column d-none d-md-block" style="margin-top: -20px; background-repeat: no-repeat;
+                    background-image: url(&#39;/images/Devices_2.png&#39;);
+                    background-position: center center; background-size: contain">
+                    </div>
+                    <div class="col-md-7 flex-column align-items-baseline">
+                        <h4>Mobilne dodatki</h4>
+                        <p class="small">
+                            Mobilne dodatki do aplikacji Librus to funkcje zwiększające komfort korzystania z niej.
+                            Wiadomości, Zadania domowe, widok Biurko to tylko część z udogodnień, z których możesz
+                            korzystać. Ciesz się wygodą na smartfonie, tablecie i komputerze.
+                        </p>
+                        <a href="https://konto.librus.pl/mobilnedodatki" target="_blank" class="btn btn-default btn-basket-caption" style="white-space: normal !important">
+                            Dowiedz się więcej
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-5 pr-5 pt-3 white-container">
+                <div class="container" style="min-height: 225px">
+                    <div class="row">
+                        <h3>
+                            Zakup oraz aktywacja Mobilnych Dodatków nie są obecnie możliwe.                        </h3>
+                    </div>
+                    <div class="row mt-3">
+                        <span class="text">
+                            Możliwość zakupu Mobilnych Dodatków zostanie ponownie uruchomiona od 1 września br.                        </span>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-12">
+                            <div class="text-center p-0">
+                                <br>
+                                <br>
+                                <button class="modal-btn mb-1" type="button" data-dismiss="modal" aria-label="Zamknij" style="
+                                        background-color: white;
+                                        white-space: normal;
+                                        border: 1px solid #028ae1;">
+                                    OK
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade shop-modal" tabindex="-1" role="dialog" aria-hidden="true" id="Indywidualni-not-logged-modal">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content p-0">
+            <button class="close" type="button" data-dismiss="modal" aria-label="Zamknij">
+                <span class="mr-1 grey" aria-hidden="true">×</span>
+            </button>
+            <div class="pl-5 pr-5 pt-3 blue-container">
+                <div class="row">
+                    <div class="col-md-5 aligned flex-column d-none d-md-block" style="margin-top: -20px; background-repeat: no-repeat;
+                        background-image: url(&#39;/images/IDW_laptop.png&#39;); background-position: center center;
+                        background-size: contain">
+
+                    </div>
+                    <div class="col-md-7 flex-column align-items-baseline">
+                        <h4 class="">indywidualni.pl</h4>
+                        <p class="small">
+                            Pakiet testów „Mocne strony i predyspozycje” oraz 3-letni dostęp do portalu z bazą metod,
+                            technik i kart pracy podnoszących efektywność nauki.
+                        </p>
+                        <a href="https://konto.librus.pl/indywidualni" target="_blank" class="btn btn-default btn-basket-caption" style="white-space: normal !important">
+                            Dowiedz się więcej
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pl-5 pr-5 pt-3 white-container">
+                <div class="container" style="min-height: 230px">
+
+                    <div class="row">
+                        <h3>Taniej dla użytkowników Konta LIBRUS!
+                        </h3>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-sm-12 col-lg-6 text-center">
+
+                            <p>Cena regularna</p>
+
+                            <h1 class="mb-1"><s>39 zł</s></h1>
+
+
+                            <div class="text-center p-0">
+    <a class="modal-btn mb-1 btn-black" target="_blank" href="https://indywidualni.pl/">
+        Kup w regularnej cenie
+    </a>
+</div>                        </div>
+                        <div class="col-sm-12 col-lg-6 mt-sm-4 mt-md-0 text-center redModal">
+
+                            <p> Konto LIBRUS</p>
+
+                            <h1 class="mb-1">29 zł</h1>
+
+                            <div class="text-center p-0">
+    <a class="modal-btn mb-1 btn-red" href="https://portal.librus.pl/konto-librus/register?redirectTo=https%3A%2F%2Fportal.librus.pl%2Frodzina%2Fsklep%2Findywidualni&amp;redirectCrc=f73198902ecf6a97a89bab90bed8cdd69d55cc5bccf588772de45c5925da52f7">
+        Zarejestruj się
+    </a>
+</div>                            <div>
+                                <span class="small text-center redModal">
+                                    Masz już konto?
+                                    <a class="primary-link" href="https://portal.librus.pl/konto-librus/login?redirectTo=https%3A%2F%2Fportal.librus.pl%2Frodzina%2Fsklep%2Findywidualni&amp;redirectCrc=f73198902ecf6a97a89bab90bed8cdd69d55cc5bccf588772de45c5925da52f7">Zaloguj się.</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <script>
+        var widgetData = new window.WidgetData();
+        widgetData.clear();
+    </script>
+    
+
+<div id="lightboxOverlay" tabindex="-1" class="lightboxOverlay" style="display: none;"></div><div id="lightbox" tabindex="-1" class="lightbox" style="display: none;"><div class="lb-outerContainer"><div class="lb-container"><img class="lb-image" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" alt=""><div class="lb-nav"><a class="lb-prev" aria-label="Previous image" href="https://portal.librus.pl/rodzina/synergia/loguj"></a><a class="lb-next" aria-label="Next image" href="https://portal.librus.pl/rodzina/synergia/loguj"></a></div><div class="lb-loader"><a class="lb-cancel"></a></div></div></div><div class="lb-dataContainer"><div class="lb-data"><div class="lb-details"><span class="lb-caption"></span><span class="lb-number"></span></div><div class="lb-closeContainer"><a class="lb-close"></a></div></div></div></div></body><template id="transover-popup-template"></template><template id="transover-tat-popup-template"></template></html>
